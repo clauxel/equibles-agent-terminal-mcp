@@ -1,15 +1,12 @@
 # Equibles Agent Terminal
 
-Equibles Agent Terminal is a hosted remote MCP for Equibles.
+Equibles Agent Terminal is a paid hosted remote MCP for Equibles. It exposes Streamable HTTP tool calls, bearer-token access, public server-card metadata, usage logs, and receipt-oriented JSON for AI agent workflows.
 
 Website: https://equiblesagent.clauxel.com/
-Docs pattern reference: https://github.com/clauxel/MiroFish
-Primary keyword: Equibles
-Type: MCP
-Default plan: team
 MCP endpoint: https://equiblesagent.clauxel.com/mcp
 Server card: https://equiblesagent.clauxel.com/server-card.json
-Registry name: com.clauxel.equiblesagent/equiblesagent-mcp
-Tools: resolve_equity_entity, fetch_sec_packet, compare_institutional_holders, export_finance_receipt
+Docs: https://github.com/clauxel/equibles-agent-terminal-mcp
 
-Public boundary: docs-only repository; no production source code or secrets.
+Use case: Ask market filings like an agent-ready finance terminal.
+Authentication: Bearer token required for production use.
+Tools: resolve_equity_entity, fetch_sec_packet, compare_institutional_holders, export_finance_receipt
